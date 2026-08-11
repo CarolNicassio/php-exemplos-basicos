@@ -18,7 +18,7 @@ if ($idade >= 18 || $temDocumento) {
     echo "Não pode tirar a carteira";
 }
 
-// Operaão negação !
+// Operação negação !
 $presente = false;
 
 if (!$presente) {
