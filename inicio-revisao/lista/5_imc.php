@@ -7,7 +7,7 @@ $peso = 45; //kilos
 // Calcular IMC
 function calcularIMC(float $altura, float $peso): float {
     $imc = $peso / ($altura * $altura);
-    echo "O IMC é: " . number_format($imc, 2) . "\n";
+    echo "O IMC é: " . number_format($imc, 2) . "<br>";
     return $imc;
 }
 
